@@ -1,5 +1,4 @@
-cat tomato_erne_CG_maker.sh
-```{bash}
+#cat tomato_erne_CG_maker.sh  run this in the dirctory:
 # ls *erne_meth.txt|sed 's#\(tomato_erne_\)\(.*\)\(_erne_meth\)\(.txt\)#cat \1\2\3\4 |egrep "CG." > \1\2\3_CG\4#' > tomato_erne_CG_maker.sh
 cat tomato_erne_12-P1_erne_meth.txt |egrep "CG." > tomato_erne_12-P1_erne_meth_CG.txt
 cat tomato_erne_12-P2_erne_meth.txt |egrep "CG." > tomato_erne_12-P2_erne_meth_CG.txt
@@ -26,6 +25,5 @@ cat tomato_erne_BE-P3_erne_meth.txt |egrep "CG." > tomato_erne_BE-P3_erne_meth_C
 cat tomato_erne_GE-P1_erne_meth.txt |egrep "CG." > tomato_erne_GE-P1_erne_meth_CG.txt
 cat tomato_erne_GE-P2_erne_meth.txt |egrep "CG." > tomato_erne_GE-P2_erne_meth_CG.txt
 cat tomato_erne_GE-P3_erne_meth.txt |egrep "CG." > tomato_erne_GE-P3_erne_meth_CG.txt
-```
 
 
