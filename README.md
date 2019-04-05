@@ -27,3 +27,5 @@ BE-P3	Solanum lycopersicum	normal epi  R7 X T20-4-4-23-3 P2
 21-P34	Solanum lycopersicum	(+) mild  img 1983
 21-P37	Solanum lycopersicum	(+) dwarf img1991
 ```
+basic concept of illumina methylome sequencing 
+https://www.illumina.com/content/dam/illumina-marketing/documents/products/appnotes/appnote-methylseq-wgbs.pdf
