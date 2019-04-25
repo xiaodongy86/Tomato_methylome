@@ -1,0 +1,2 @@
+# download Tomato 
+wget -r ftp://ftp.solgenomics.net/genomes/Solanum_lycopersicum/assembly/build_3.00/
