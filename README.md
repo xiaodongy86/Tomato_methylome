@@ -33,6 +33,9 @@ https://www.illumina.com/content/dam/illumina-marketing/documents/products/appno
 Sample prepration 
 https://support.illumina.com/content/dam/illumina-support/documents/documentation/chemistry_documentation/samplepreps_legacy/WGBS_for_Methylation_Analysis_Guide_15021861_B.pdf
 
+Trim_galore manual
+http://www.bioinformatics.babraham.ac.uk/projects/trim_galore/trim_galore_User_Guide_v0.3.7.pdf
+
 Erne manual
 http://erne.sourceforge.net/manual.php
 
