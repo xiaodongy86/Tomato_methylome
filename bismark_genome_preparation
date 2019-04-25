@@ -1,2 +1,4 @@
 # download Tomato 
 wget -r ftp://ftp.solgenomics.net/genomes/Solanum_lycopersicum/assembly/build_3.00/
+# run bismark_genome_preparation
+bismark_genome_preparation --/opt/anaconda3/bin/bowtie2 --verbose /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/ftp.solgenomics.net/genomes/Solanum_lycopersicum/assembly/build_3.00
