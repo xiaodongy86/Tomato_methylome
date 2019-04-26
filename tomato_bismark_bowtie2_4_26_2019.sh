@@ -3,10 +3,9 @@ cd /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark-bt2
 ```
 ls |sed s'#\(.*\)#ts /usr/local/Bismark/bismark --bam --multicore 4 --bowtie2 -p 2 --phred33-quals --genome_folder /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/ftp.solgenomics.net/genomes/Solanum_lycopersicum/assembly/build_3.00 -1 /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/trim_glore/\1/\1_1_val_1.fq.gz -2 /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/trim_glore/\1/\1_2_val_2.fq.gz -o /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark-bt2/\1#'> tomato_bismark_bowtie2.sh
 ```
-set up ts two job a time
+#set up ts two job a time
 ``````
- ts -S 2
-``````
+ts -S 2
 ts /usr/local/Bismark/bismark --bam --multicore 4 --bowtie2 -p 2 --phred33-quals --genome_folder /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/ftp.solgenomics.net/genomes/Solanum_lycopersicum/assembly/build_3.00 -1 /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/trim_glore/12-P1/12-P1_1_val_1.fq.gz -2 /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/trim_glore/12-P1/12-P1_2_val_2.fq.gz -o /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark-bt2/12-P1
 ts /usr/local/Bismark/bismark --bam --multicore 4 --bowtie2 -p 2 --phred33-quals --genome_folder /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/ftp.solgenomics.net/genomes/Solanum_lycopersicum/assembly/build_3.00 -1 /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/trim_glore/12-P2/12-P2_1_val_1.fq.gz -2 /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/trim_glore/12-P2/12-P2_2_val_2.fq.gz -o /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark-bt2/12-P2
 ts /usr/local/Bismark/bismark --bam --multicore 4 --bowtie2 -p 2 --phred33-quals --genome_folder /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/ftp.solgenomics.net/genomes/Solanum_lycopersicum/assembly/build_3.00 -1 /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/trim_glore/12-P3/12-P3_1_val_1.fq.gz -2 /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/trim_glore/12-P3/12-P3_2_val_2.fq.gz -o /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark-bt2/12-P3
