@@ -1,0 +1,33 @@
+
+cd /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/
+
+
+ls bismark_deduplicate |sed s'#\(.*\)#ts /usr/local/Bismark/deduplicate_bismark -p --bam /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark-bt2/\1/\1_1_val_1_bismark_bt2_pe.bam --output_dir /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark_deduplicate/\1#' > bismark_deduplicate.sh
+
+ts /usr/local/Bismark/deduplicate_bismark -p --bam /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark-bt2/12-P1/12-P1_1_val_1_bismark_bt2_pe.bam --output_dir /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark_deduplicate/12-P1
+ts /usr/local/Bismark/deduplicate_bismark -p --bam /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark-bt2/12-P2/12-P2_1_val_1_bismark_bt2_pe.bam --output_dir /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark_deduplicate/12-P2
+ts /usr/local/Bismark/deduplicate_bismark -p --bam /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark-bt2/12-P3/12-P3_1_val_1_bismark_bt2_pe.bam --output_dir /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark_deduplicate/12-P3
+ts /usr/local/Bismark/deduplicate_bismark -p --bam /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark-bt2/13-P1/13-P1_1_val_1_bismark_bt2_pe.bam --output_dir /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark_deduplicate/13-P1
+ts /usr/local/Bismark/deduplicate_bismark -p --bam /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark-bt2/13-P2/13-P2_1_val_1_bismark_bt2_pe.bam --output_dir /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark_deduplicate/13-P2
+ts /usr/local/Bismark/deduplicate_bismark -p --bam /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark-bt2/13-P3/13-P3_1_val_1_bismark_bt2_pe.bam --output_dir /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark_deduplicate/13-P3
+ts /usr/local/Bismark/deduplicate_bismark -p --bam /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark-bt2/1-P1/1-P1_1_val_1_bismark_bt2_pe.bam --output_dir /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark_deduplicate/1-P1
+ts /usr/local/Bismark/deduplicate_bismark -p --bam /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark-bt2/1-P2/1-P2_1_val_1_bismark_bt2_pe.bam --output_dir /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark_deduplicate/1-P2
+ts /usr/local/Bismark/deduplicate_bismark -p --bam /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark-bt2/21-P1/21-P1_1_val_1_bismark_bt2_pe.bam --output_dir /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark_deduplicate/21-P1
+ts /usr/local/Bismark/deduplicate_bismark -p --bam /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark-bt2/21-P17/21-P17_1_val_1_bismark_bt2_pe.bam --output_dir /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark_deduplicate/21-P17
+ts /usr/local/Bismark/deduplicate_bismark -p --bam /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark-bt2/21-P19/21-P19_1_val_1_bismark_bt2_pe.bam --output_dir /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark_deduplicate/21-P19
+ts /usr/local/Bismark/deduplicate_bismark -p --bam /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark-bt2/21-P22/21-P22_1_val_1_bismark_bt2_pe.bam --output_dir /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark_deduplicate/21-P22
+ts /usr/local/Bismark/deduplicate_bismark -p --bam /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark-bt2/21-P3/21-P3_1_val_1_bismark_bt2_pe.bam --output_dir /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark_deduplicate/21-P3
+ts /usr/local/Bismark/deduplicate_bismark -p --bam /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark-bt2/21-P32/21-P32_1_val_1_bismark_bt2_pe.bam --output_dir /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark_deduplicate/21-P32
+ts /usr/local/Bismark/deduplicate_bismark -p --bam /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark-bt2/21-P34/21-P34_1_val_1_bismark_bt2_pe.bam --output_dir /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark_deduplicate/21-P34
+ts /usr/local/Bismark/deduplicate_bismark -p --bam /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark-bt2/21-P37/21-P37_1_val_1_bismark_bt2_pe.bam --output_dir /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark_deduplicate/21-P37
+ts /usr/local/Bismark/deduplicate_bismark -p --bam /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark-bt2/21-P6/21-P6_1_val_1_bismark_bt2_pe.bam --output_dir /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark_deduplicate/21-P6
+ts /usr/local/Bismark/deduplicate_bismark -p --bam /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark-bt2/2-P1/2-P1_1_val_1_bismark_bt2_pe.bam --output_dir /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark_deduplicate/2-P1
+ts /usr/local/Bismark/deduplicate_bismark -p --bam /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark-bt2/2-P2/2-P2_1_val_1_bismark_bt2_pe.bam --output_dir /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark_deduplicate/2-P2
+ts /usr/local/Bismark/deduplicate_bismark -p --bam /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark-bt2/BE-P1/BE-P1_1_val_1_bismark_bt2_pe.bam --output_dir /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark_deduplicate/BE-P1
+ts /usr/local/Bismark/deduplicate_bismark -p --bam /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark-bt2/BE-P2/BE-P2_1_val_1_bismark_bt2_pe.bam --output_dir /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark_deduplicate/BE-P2
+ts /usr/local/Bismark/deduplicate_bismark -p --bam /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark-bt2/BE-P3/BE-P3_1_val_1_bismark_bt2_pe.bam --output_dir /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark_deduplicate/BE-P3
+ts /usr/local/Bismark/deduplicate_bismark -p --bam /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark-bt2/GE-P1/GE-P1_1_val_1_bismark_bt2_pe.bam --output_dir /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark_deduplicate/GE-P1
+ts /usr/local/Bismark/deduplicate_bismark -p --bam /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark-bt2/GE-P2/GE-P2_1_val_1_bismark_bt2_pe.bam --output_dir /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark_deduplicate/GE-P2
+ts /usr/local/Bismark/deduplicate_bismark -p --bam /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark-bt2/GE-P3/GE-P3_1_val_1_bismark_bt2_pe.bam --output_dir /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark_deduplicate/GE-P3
+
+sh bismark_deduplicate.sh
