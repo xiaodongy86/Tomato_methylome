@@ -1,3 +1,6 @@
+
+#*** Bismark methylation extractor version v0.20.1 ***
+````
 cd /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline
 ls methyl_extractor/ |sed s'#\(.*\)#ts /usr/local/Bismark/bismark_methylation_extractor --CX_context --bedGraph --cytosine_report --ample_memory --multicore 4 --genome_folder /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/ftp.solgenomics.net/genomes/Solanum_lycopersicum/assembly/build_3.00 --report /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark_deduplicate/\1/\1_1_val_1_bismark_bt2_pe.deduplicated.bam -o /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/methyl_extractor/\1#' >methyl_extractor.sh
 
@@ -26,3 +29,4 @@ ts /usr/local/Bismark/bismark_methylation_extractor --CX_context --bedGraph --cy
 ts /usr/local/Bismark/bismark_methylation_extractor --CX_context --bedGraph --cytosine_report --ample_memory --multicore 4 --genome_folder /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/ftp.solgenomics.net/genomes/Solanum_lycopersicum/assembly/build_3.00 --report /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark_deduplicate/GE-P1/GE-P1_1_val_1_bismark_bt2_pe.deduplicated.bam -o /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/methyl_extractor/GE-P1
 ts /usr/local/Bismark/bismark_methylation_extractor --CX_context --bedGraph --cytosine_report --ample_memory --multicore 4 --genome_folder /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/ftp.solgenomics.net/genomes/Solanum_lycopersicum/assembly/build_3.00 --report /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark_deduplicate/GE-P2/GE-P2_1_val_1_bismark_bt2_pe.deduplicated.bam -o /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/methyl_extractor/GE-P2
 ts /usr/local/Bismark/bismark_methylation_extractor --CX_context --bedGraph --cytosine_report --ample_memory --multicore 4 --genome_folder /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/ftp.solgenomics.net/genomes/Solanum_lycopersicum/assembly/build_3.00 --report /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/bismark_deduplicate/GE-P3/GE-P3_1_val_1_bismark_bt2_pe.deduplicated.bam -o /data5/F15FTSUSAT0747_TOMrcwM/YXD_Bismark_pipeline/methyl_extractor/GE-P3
+```
